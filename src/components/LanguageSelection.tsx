@@ -9,10 +9,6 @@ interface LanguageSelectionProps {
 const languages = [
   { code: 'en' as Language, name: 'English', nativeName: 'English' },
   { code: 'ta' as Language, name: 'Tamil', nativeName: 'தமிழ்' },
-  { code: 'hi' as Language, name: 'Hindi', nativeName: 'हिन्दी' },
-  { code: 'kn' as Language, name: 'Kannada', nativeName: 'ಕನ್ನಡ' },
-  { code: 'ml' as Language, name: 'Malayalam', nativeName: 'മലയാളം' },
-  { code: 'te' as Language, name: 'Telugu', nativeName: 'తెలుగు' }
 ];
 
 export function LanguageSelection({ onSelect }: LanguageSelectionProps) {
